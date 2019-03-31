@@ -1,0 +1,28 @@
+{
+  "name": "ts-decorator-routing",
+  "description": "Implementing routing with TypeScript decorators, see https://nehalist.io/routing-with-typescript-decorators",
+  "private": true,
+  "author": {
+    "name": "Kevin Hirczy",
+    "email": "kevin@nehalist.io",
+    "url": "https://nehalist.io"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "mocha -r ts-node/register 'tests/**/*Test.ts'"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.16.1",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.0.3"
+  }
+}
